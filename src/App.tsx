@@ -29,7 +29,7 @@ function App() {
           <img src={getoutLogo} className="logo" alt="Get Out logo" />
         </a>
       </div>
-      <div className="card">
+      <div className="row-center card">
         <h1>ESCAPE<br/>GAME JAM</h1>
         <p>Entrez le mot de passe:</p>
         <div className="input">
