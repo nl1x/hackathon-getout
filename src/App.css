@@ -12,13 +12,27 @@
   padding: 2em 0;
 }
 
+.footer {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 2em 0;
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+}
+
 .center {
   position: absolute;
   top: 5px;
 }
 
 .error {
-    color: red;
+    color: #b70404;
 }
 
 .transparent {
@@ -71,8 +85,4 @@
   p {
     font-size: 1.3em;
   }
-}
-
-.read-the-docs {
-  color: #888;
 }

@@ -38,6 +38,9 @@ function App() {
         </div>
         <p className={!valid && "transparent error" || "error"}>Mot de passe incorrect.</p>
       </div>
+      <p className="footer">
+        Made by &nbsp; <a href="https://www.instagram.com/bde_tekrennes/">BDE TEK'ila</a>
+      </p>
     </>
   )
 }
